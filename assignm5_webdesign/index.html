@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McLesson - Web Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        nav li {
+            margin-right: 30px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 30px 30px;
+            display: flex;
+            justify-content: space-evenly;
+            background: dodgerblue;
+            color: white;
+            height: 90vh;
+        }
+
+        .box1 {
+            width: 25%;
+        }
+
+        .box2 {
+            margin-top: 40px;
+            border: 3px solid black;
+            border-radius: 16px;
+            padding: 7px;
+            height: 25%;
+            background-color: white;
+            color: black;
+        }
+
+        .logo {
+            display: flex;
+            height: 2px;
+            margin: 10px 15px;
+        }
+
+        .read-more {
+            background-color: dodgerblue;
+            border: solid;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        main div {
+
+            margin: 10px 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">McLesson</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Docs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="box1">
+            <h1>Web Design</h1>
+            <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the
+                user experience aspects of website development rather than software development. The core of web design
+                is visual and interaction. It aims to solve the communication problems between users and web page
+                information.</p>
+            <a href="#" class="read-more">Read More</a>
+
+        </div>
+
+        <div class="box2">
+            <h2>What skills do web designers need to have?</h2>
+            <ul>
+                <li>Master the basic rules of visual design</li>
+                <li>Learn layout design</li>
+                <li>Learn the color principles</li>
+                <li>Understand the basic coding language - HTML and CSS</li>
+            </ul>
+        </div>
+
+    </main>
+</body>
+
+</html>
